@@ -21,9 +21,7 @@ export class ProductEditComponent implements OnInit {
 
   ngOnInit() {
   }
-  changeUrl(){
-    this._Router.
-  }
+  
 
 
 }

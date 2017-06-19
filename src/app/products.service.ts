@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class ProductsService {
-  products = [];
+  products = []
   constructor() { 
     console.log("I created a productsService");
   }
@@ -13,7 +13,7 @@ export class ProductsService {
     this.products.push(newProduct);
   }
   getOneProduct(idx){
-    return this.products[idx]
+    return this.products[idx];
   }
 
 }
