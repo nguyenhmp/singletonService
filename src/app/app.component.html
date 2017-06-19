@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<a [routerLink]="['/home']">Home</a> |
+<a [routerLink]="['/products']">Product</a> |
+<a [routerLink]="['/products/1']">edit</a> |
+<a [routerLink]="['/products/new']">create</a>
+
+
+
+<router-outlet></router-outlet>

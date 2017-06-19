@@ -1,0 +1,7 @@
+<form (submit)="createProduct()">
+  <input type="text" name="name" [(ngModel)]="product.name">
+  <input type="text" name="price" [(ngModel)]="product.price"> 
+  <input type="submit" value="create">
+</form>
+
+{{product.name}} | {{product.price}}
